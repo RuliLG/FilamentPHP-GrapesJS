@@ -2,11 +2,11 @@
 
 namespace Calima\FilamentPHPGrapesJS\Tests;
 
+use Calima\FilamentPHPGrapesJS\FilamentPHPGrapesJSServiceProvider;
 use Filament\FilamentServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Calima\FilamentPHPGrapesJS\FilamentPHPGrapesJSServiceProvider;
 
 class TestCase extends Orchestra
 {
