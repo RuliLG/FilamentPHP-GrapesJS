@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "calima/filamentphp-grapesjs",
+    "description": "Landing builder for Filament PHP using GrapesJS",
     "keywords": [
-        ":vendor_name",
+        "Calima",
         "laravel",
-        ":package_slug"
+        "filamentphp-grapesjs"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/calima/filamentphp-grapesjs",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Raúl López",
+            "email": "raul@calimasolutions.com",
             "role": "Developer"
         }
     ],
@@ -38,13 +38,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Calima\\FilamentPHPGrapesJS\\": "src",
+            "Calima\\FilamentPHPGrapesJS\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Calima\\FilamentPHPGrapesJS\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -67,10 +67,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Calima\\FilamentPHPGrapesJS\\FilamentPHPGrapesJSServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "FilamentPHPGrapesJS": "Calima\\FilamentPHPGrapesJS\\Facades\\FilamentPHPGrapesJS"
             }
         }
     },
